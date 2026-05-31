@@ -16,10 +16,9 @@ const io = new Server(server, {
   },
 });
 
-// socketId -> { username, roomId, joinedAt, isHost }
+
 const users = new Map();
 
-// roomId -> { id, name, createdBy, createdAt, messages[] }
 const rooms = new Map();
 
 const systemEvents = [];

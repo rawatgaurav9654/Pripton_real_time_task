@@ -39,3 +39,9 @@ Thumbs.db
 # Misc
 *.pem
 .cache/
+
+# Large media files (exceeds GitHub 100MB limit)
+*.mp4
+*.mov
+*.avi
+documentation/*.mp4
